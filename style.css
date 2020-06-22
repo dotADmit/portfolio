@@ -48,7 +48,7 @@ nav ul li {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 52px;
 }
 
 .about p {
@@ -61,14 +61,12 @@ h1 {
 .work {
     background-color: rgb(120, 124, 206);
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 }
 
 .project {
@@ -81,15 +79,76 @@ h1 {
 .contact {
     background-color: rgb(54, 54, 54);
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
     text-align: center;
-    padding: 150px 0;
+}
+
+.contact strong {
+    font-size: 50px;
+}
+
+.contact p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 25px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.contact a {
+    display: block;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    transform: translateY(5px) scale(1.1);
+}
+
+.contact a:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    left: -15px;
+    background-color: honeydew;
+}
+.contact li:first-child a::before {
+    background: url("img/icon-circlegithub.png") no-repeat;
+    background-size: cover;
+}
+
+.contact li:last-child a::before {
+    background: url("img/icon-emailforwarders.png") no-repeat;
+    background-size: cover;
+    top: 15px;
 }
 
 footer {
     margin-top: 5px;
     background-color: rgb(54, 54, 54);
     text-align: right;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
     padding: 20px;
     font-size: 16px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.6);
 }
