@@ -95,7 +95,7 @@ h1 {
     margin: 0 auto;
 }
 
-.project {
+.project-tile {
     border-radius: 3px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     background-color: rgb(54, 54, 54);
@@ -108,7 +108,7 @@ h1 {
     object-fit: cover;
 }
 
-.project p {
+.project-tile p {
     line-height: 50px;
     opacity: 0.9;
 
