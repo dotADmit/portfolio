@@ -9,6 +9,9 @@ body {
     background-color: rgb(159, 25, 25);
 }
 
+.wrapper {
+    margin: 0 auto;
+}
 a {
     color: white;
     text-decoration: none;
@@ -49,11 +52,11 @@ nav ul li {
     background-color: black;
     background-image: linear-gradient(62deg, #576d84 0%, #181719 100%);;
     color: white;
+    text-align: center;
 }
 
 h1 {
     font-size: 60px;
-    text-align: center;
 }
 
 .about p {

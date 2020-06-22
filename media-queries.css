@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+    .wrapper {
+        width: 902px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 320px;
+    }
+    nav {
+        text-align: center;
+    }
+    .about h1 {
+        font-size: 3rem;
+    }
+    .about p {
+        font-size: 1rem;
+    }
+    .work {
+        padding: 5px;
+        padding-top: 55px;
+    }
+    .work h2 {
+        font-size: 2rem;
+    }
+
+    .projects {
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .contact strong {
+        margin: 0 10px;
+        font-size: 2rem;
+    }
+
+    .contact ul {
+        margin-left: 25px;
+    }
+
+}
+
