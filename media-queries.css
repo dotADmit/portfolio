@@ -12,12 +12,13 @@
 
 @media (max-width: 480px) {
     .wrapper {
-        width: 320px;
+        width: 100vw;
     }
     nav {
         text-align: center;
     }
     .about h1 {
+        max-width: 280px;
         font-size: 3rem;
     }
     .about p {
