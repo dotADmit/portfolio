@@ -12,7 +12,7 @@
 
 @media (max-width: 480px) {
     .wrapper {
-        width: 100vw;
+        width: 100%;
     }
     nav {
         text-align: center;
