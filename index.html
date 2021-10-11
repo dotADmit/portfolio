@@ -2,89 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-queries.css">
-    <link rel="icon" href="img/icon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dotADmit</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-queries.css">
+  <link rel="icon" href="img/icons/icon.ico">
 </head>
 
 <body>
-
-    <nav id="navbar">
-        <ul>
-            <li><a class="nav-link" href="#welcome-section">About</a></li>
-            <li><a class="nav-link" href="#projects">Work</a></li>
-            <li><a class="nav-link" href="#Contact">Contact</a></li>
+  <div class="wrapper">
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#welcome-section">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects">Work</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contacts">Contact</a></li>
         </ul>
+      </div>
     </nav>
 
-
     <section id="welcome-section" class="about">
-        <h1>Hey I am Dmitry</h1>
-        <p>a junior front-end developer</p>
+      <div class="container">
+        <h1 class="about-title">Hey I am Dmitry</h1>
+        <p class="about-text">a junior front-end developer</p>
+      </div>
     </section>
 
-
-    <section id="projects" class="work">
-        <h2>These are some of my projects</h2>
-        <div class="projects">
-            <a href="https://dotadmit.github.io" class="project-tile" target="_blank">
-                <img class="project-image" src="img/love_story.JPG" alt="project" target="_blank">
-                <p><span class="code">&lt;</span> Love Story <span class="code">&#47;&gt;</span></p>
-            </a>
-            <a href="http://test-annwin.surge.sh" class="project-tile" target="_blank">
-                <img class="project-image" src="img/lending.JPG" alt="project">
-                <p><span class="code">&lt;</span> Landing <span class="code">&#47;&gt;</span></p>
-            </a>
-            <a href="http://lib-mary.surge.sh" class="project-tile" target="_blank">
-                <img class="project-image" src="img/books_blog.JPG" alt="project">
-                <p><span class="code">&lt;</span> Blog <span class="code">&#47;&gt;</span></p>
-            </a>
-            <a href="http://annwin-fcc1.surge.sh" class="project-tile" target="_blank">
-                <img class="project-image" src="img/lending2.JPG" alt="project">
-                <p><span class="code">&lt;</span> Landing <span class="code">&#47;&gt;</span></p>
-            </a>
-            <a href="http://annwin-fcc3.surge.sh" class="project-tile" target="_blank">
-                <img class="project-image" src="img/documentation.JPG" alt="project">
-                <p><span class="code">&lt;</span> Technical Documentation <span class="code">&#47;&gt;</span></p>
-            </a>
-            <a href="http://annwin-fcc4.surge.sh" class="project-tile" target="_blank">
-                <img class="project-image" src="img/dr.JPG" alt="project">
-                <p><span class="code">&lt;</span> Tribute Page <span class="code">&#47;&gt;</span></p>
-            </a>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="projects-title">These are some of my projects</h2>
+        <div class="projects-body">
+          <a href="https://dotadmit.github.io" class="project-tile" target="_blank">
+            <img class="project-image" src="img/love_story.JPG" alt="project" target="_blank">
+            <p class="project-text"><span class="code">&lt;</span> Love Story <span class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="http://test-annwin.surge.sh" class="project-tile" target="_blank">
+            <img class="project-image" src="img/lending.JPG" alt="project">
+            <p class="project-text"><span class="code">&lt;</span> Landing <span class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="http://lib-mary.surge.sh" class="project-tile" target="_blank">
+            <img class="project-image" src="img/books_blog.JPG" alt="project">
+            <p class="project-text"><span class="code">&lt;</span> Blog <span class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="http://annwin-fcc1.surge.sh" class="project-tile" target="_blank">
+            <img class="project-image" src="img/lending2.JPG" alt="project">
+            <p class="project-text"><span class="code">&lt;</span> Landing <span class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="http://annwin-fcc3.surge.sh" class="project-tile" target="_blank">
+            <img class="project-image" src="img/documentation.JPG" alt="project">
+            <p class="project-text"><span class="code">&lt;</span> Technical Documentation <span
+                class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="http://annwin-fcc4.surge.sh" class="project-tile" target="_blank">
+            <img class="project-image" src="img/dr.JPG" alt="project">
+            <p class="project-text"><span class="code">&lt;</span> Tribute Page <span class="code">&#47;&gt;</span></p>
+          </a>
         </div>
         <a href="https://codepen.io/Annwin" class="btn" target="_blank">Show all</a>
+      </div>
     </section>
 
-
-    <section id="Contact" class="contact">
-        <strong>Let's work together...</strong>
-        <p>What is the color of your team t-shirts?</p>
-        <!-- <p>How do you spend your time on gym space?</p> -->
-        <ul>
-            <li><a id="profile-link" class="profile-link" href="https://github.com/dotADmit" target="_blank">GitHub</a>
-            </li>
-            <li><a id="profile-link" class="profile-link" href="mailto:djandreev89@mail.ru" target="_blank">Send a
-                    mail</a></li>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <strong class="contacts-title">Let's work together...</strong>
+        <p class="contacts-text">What is the color of your team t-shirts?</p>
+        <ul class="contacts-list">
+          <li class="contacts-list-item"><a id="contacts-link" class="contacts-link" href="https://github.com/dotADmit"
+              target="_blank">GitHub</a>
+          </li>
+          <li class="contacts-list-item"><a id="contacts-link" class="contacts-link" href="mailto:djandreev89@mail.ru"
+              target="_blank">Send a
+              mail</a></li>
         </ul>
+      </div>
     </section>
 
 
-    <footer>&copy; designed by <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a></footer>
+    <footer class="footer">
+      <div class="container">
+        &copy; designed by
+        <a class="footer-link" href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a>
+      </div>
+      </footer>
+  </div>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#navbar").on("click", "a", function (event) {
-                event.preventDefault();
-                var id = $(this).attr('href'),
-                    top = $(id).offset().top;
-                $('body,html').animate({ scrollTop: top }, 1000);
-            });
-        });
-    </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#navbar").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+          top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1000);
+      });
+    });
+  </script>
 </body>
 
 </html>

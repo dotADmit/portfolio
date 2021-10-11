@@ -1,46 +1,41 @@
-
 @media (max-width: 480px) {
-    body {
-        width: 100%;
-    }
-    nav {
-        display: flex;
-        justify-content: space-around;
+  body {
+    width: 100%;
+  }
+
+  .navbar-list {
+    justify-content: space-around;
+    flex-wrap: wrap;
     }
 
-    .about h1 {
-        max-width: 280px;
-        font-size: 3rem;
-    }
-    .about p {
-        font-size: 1rem;
-    }
-    .work {
-        padding: 5px;
-        padding-top: 55px;
-    }
-    .work h2 {
-        font-size: 2rem;
-    }
+  .about-title {
+    font-size: 3rem;
+  }
 
-    .projects {
-        margin: 0;
-        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    }
+  .about-text {
+    font-size: 1rem;
+  }
 
-    .contact strong {
-        margin: 0 10px;
-        font-size: 2rem;
-    }
+  .projects {
+    padding: 40px 10px 40px 10px;
+  }
 
-    .contact ul {
-        margin-left: 25px;
-    }
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-body {
+    margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+
+  .contacts-title {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 360px) {
-    body {
-        width: 102%;
-    }
+  body {
+    width: 102%;
+  }
 }
-
