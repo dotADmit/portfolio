@@ -14,8 +14,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   background-color: rgb(159, 25, 25);
-
-  scroll-behavior: smooth;
 }
 
 a {
@@ -47,7 +45,7 @@ a {
 
 .navbar-list {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: end;
 
   list-style: none;
 }
