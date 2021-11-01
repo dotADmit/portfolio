@@ -6,7 +6,7 @@
   .navbar-list {
     justify-content: space-around;
     flex-wrap: wrap;
-    }
+  }
 
   .about-title {
     font-size: 3rem;
@@ -17,7 +17,7 @@
   }
 
   .projects {
-    padding: 40px 10px 40px 10px;
+    padding: 40px 10px;
   }
 
   .projects-title {
